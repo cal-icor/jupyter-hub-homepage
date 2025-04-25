@@ -1,0 +1,4 @@
+name: datahub-homepage
+dependencies:
+  - pip:
+    - -r requirements.txt
