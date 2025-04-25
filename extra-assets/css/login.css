@@ -24,7 +24,7 @@
 }
 
 .details-welcome {
-    color: black;
+    color: grey;
 }
 
 .details-logos img {
@@ -57,6 +57,3 @@
     text-decoration: underline;
 }
 
-#berkeley-logo {
-    max-width: 650px;
-}
