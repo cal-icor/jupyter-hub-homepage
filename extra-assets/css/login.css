@@ -19,13 +19,22 @@
     font-weight: bold;
 }
 
+[data-bs-theme="dark"] #operated-by a {
+    color: lightgray;
+    font-weight: bold;
+}
+
 .details {
     margin-top: 32px;
 }
 
 .details-welcome {
-    color: grey;
+    color: black;
 }
+
+[data-bs-theme="dark"] .details-welcome {
+    color: white;
+  }
 
 .details-logos img {
     margin: 12px;
@@ -36,14 +45,29 @@
     color: grey;
 }
 
+.announcements {
+    margin-top: 8px;
+}
+
+.announcements > div {
+    margin-top: 16px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    border: 2px dotted orange;
+}
+
+.announcements-text {
+    padding-left: 10px;
+}
+
 .questions {
     margin-top: 12px;
 }
 
 .questions > div {
     margin-top: 32px;
-    padding-top: 16px;
-    border-top: 2px lightgrey dotted;
+    padding-bottom: 32px;
+    border-bottom: 2px lightgrey dotted;
 }
 
 .footer {
@@ -55,5 +79,13 @@
 .footer a {
     color: darkgrey;
     text-decoration: underline;
+}
+
+p.hub-login-text {
+    font-size: 1.5em;
+}
+
+div.login-header img.hub-logo {
+    width: 40%;
 }
 
